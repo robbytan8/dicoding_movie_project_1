@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="action_search">Search</string>
+    <string name="text_title">Movie Title</string>
+    <string name="logo_desc">Movie Poster</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="parcel_movie" translatable="false">PCL_MOV</string>
+</resources>
