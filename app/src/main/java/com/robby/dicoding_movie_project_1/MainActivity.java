@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.Movi
     }
 
     private void populateMovieData(String movieTitle) {
+        progressBar.setVisibility(View.VISIBLE);
         RequestQueue queue = Volley.newRequestQueue(this);
         StringRequest stringRequest = new StringRequest(Request.Method.GET,
                 TmdbUtil.getSearchMoviesUrl(movieTitle),
